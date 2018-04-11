@@ -1,0 +1,124 @@
+body {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/strawberryBackground.jpg");
+    background-size: cover;
+    font-family: 'Cambay', sans-serif;
+}
+
+button {
+    color: white;
+
+    background: transparent;
+}
+
+#sign {
+    border: none;
+    margin-top: 20px;
+    margin-right: 20px;
+    text-decoration: underline;
+    transition: all 0.5s;
+}
+
+#sign:hover {
+    text-decoration: line-through;
+    cursor: pointer;
+    background-color: #FF1493;
+}
+
+#login {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 120px;
+    padding: 10px 30px;
+    border: 1px solid white;
+    border-radius: 1px;
+    transition: all 0.5s;
+}
+
+#login:hover {
+    cursor: pointer;
+    background-color: #FF1493;
+}
+
+#forgot {
+    text-decoration: underline;
+    transition: all 0.5s;
+
+}
+
+#forgot:hover {
+    transition: all 0.5s;
+    cursor: pointer;
+    text-decoration: line-through;
+    background-color: #FF1493;
+}
+
+
+#quote {
+    color: white;
+    font-size: 36px;
+    text-align: center;
+}
+
+#quoter {
+    color: white;
+    font-size: 36px;
+}
+
+.centerCtr {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90%;
+}
+
+main {
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+b {
+    font-weight: bold;
+}
+
+.overlay {
+    background-color: #4F4F4F;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
+}
+
+.hide {
+    display: none;
+}
+
+
+#username {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    padding: 5px 0px;
+    color: white;
+    margin-top: 30px;
+}
+
+#password {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 80px;
+}
