@@ -14,5 +14,4 @@
   e.preventDefault()
   auth().signOut()
  })
- g
  
